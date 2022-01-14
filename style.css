@@ -68,23 +68,39 @@ img{
     margin: auto 5px;
 }
 
-.buttoes{
+header{
+    display: grid;
+    place-items: center;
+}
+.buttons{
     display:flex;
     justify-content: center;
+    align-items: center;
     background-color: #47269B;
-    width: max-content;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.buttons div{
+    width: 500px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="radio"]{
+    display: none;
+
+}
+label{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 30px;
 }
-button{
-    background: none;
-    border: none;
-    border-radius: 30px;
-    width: 150px;
-    height: 35px;
-}
-button:active{
+input[type="radio"]:checked +label{
     background-color: white;
-}
-button:focus{
-    background-color: white;
+    color:#47269B;
 }
