@@ -52,6 +52,13 @@ li{
     padding: 5px 0px;
     max-width: 60%;
 }
+ul{
+    list-style-type: none;
+}
+ul li:before {
+    content: '+ ';
+    font-size: 1.2em;
+}
 figure{
     display: flex;
     margin:auto 2px;
