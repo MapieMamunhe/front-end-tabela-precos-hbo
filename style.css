@@ -94,7 +94,6 @@ header{
 }
 input[type="radio"]{
     display: none;
-
 }
 label{
     height: 40px;
