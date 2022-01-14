@@ -9,6 +9,8 @@ body{
 }
 .corpo{
     display: flex;
+    justify-content: center;
+    
     flex-wrap: wrap;
         margin: 25px;
         padding: 20px;
@@ -71,6 +73,7 @@ img{
 header{
     display: grid;
     place-items: center;
+    text-align: center;
 }
 .buttons{
     display:flex;
@@ -78,14 +81,14 @@ header{
     align-items: center;
     background-color: #47269B;
     width: 500px;
-    height: 30px;
+    height: 40px;
     border-radius: 30px;
     margin-top: 30px;
     font-weight: bold;
 }
-.buttons div{
+.buttons > div{
     width: 500px;
-    height: 30px;
+    height: 40px;
     margin: 0px;
     padding: 0px;
 }
@@ -94,8 +97,9 @@ input[type="radio"]{
 
 }
 label{
-    height: 30px;
+    height: 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
