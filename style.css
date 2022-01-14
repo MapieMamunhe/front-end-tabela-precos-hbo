@@ -67,3 +67,24 @@ figure{
 img{
     margin: auto 5px;
 }
+
+.buttoes{
+    display:flex;
+    justify-content: center;
+    background-color: #47269B;
+    width: max-content;
+    border-radius: 30px;
+}
+button{
+    background: none;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+}
+button:active{
+    background-color: white;
+}
+button:focus{
+    background-color: white;
+}
